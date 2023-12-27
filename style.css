@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+}
+.container{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 2rem;
+   /*  border: 2px solid blue; */
+}
+.headingDiv{
+    width: 100%;
+ /*    border: 2px solid red; */
+    text-align: center;
+    font-weight: 300;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.detailHeading{
+   /*  border: 2px solid red; */
+}
+.detailsTable{
+    margin-top: 20px;
+   width: 100%;
+   /*  border: 2px solid green; */
+}
+.detailsHeading{
+    width: 100%;
+    background-color: rgb(255, 114, 137);
+    height: 2.5rem;
+    
+}
+.detailContent{
+    text-align: center;
+   /*  border: 2px solid green; */
+}
+.detailsTable td,th{
+    width: 25%;
+}
+th{
+
+    font-size: 18px;
+}
+.detailsTable td{
+
+    font-size: 18px;
+   /*  color: green; */
+}
+.detailsContent{
+   /*  border: 2px solid red; */
+    height: 2.5rem;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+/* results */ 
+
+.resultsHeading{
+    height: 2.5rem;
+    width: 100%;
+    background-color: #60ABFC;
+}
+.resultsContent{
+    height: 4rem;
+    width: 100%;
+   padding: 5px;
+   background-color: #ebebeb;
+}
+.resultHeading{
+   /*  border: 2px solid red; */
+}
+.resultContent{
+ /*    border: 2px solid red; */
+    text-align: center;
+  
+}
+.resultsTable{
+  /*   border: 2px solid blue; */
+     width: 100%;
+    margin-top: 20px;
+}
+.resultsTable td,th{
+    width: 16.6%;
+}
+.examName{
+    margin-top: 20px;
+}
+.userMarks{
+    font-size: 18px;
+}
+.userMarks2{
+    font-size: 15px;
+    font-weight: 700;
+}
+footer{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  /*   border: 2px solid black; */
+}
+.footerLogo{
+    height: 30px;
+    width: 30px;
+}
+.footerContent{
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    margin: 10px;
+}
+.fail{
+    color: red;
+    font-weight: 500;
+}
+.pass{
+    color: green;
+    font-weight: 500;
+}
